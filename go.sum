@@ -1,0 +1,6 @@
+github.com/CornMars2020/color v0.0.0-20240820025339-39b2e65cc6df h1:k89r5eKuu8eK+WFBuJNH0FqODzdQfpGsE7mE9UgJRPo=
+github.com/CornMars2020/color v0.0.0-20240820025339-39b2e65cc6df/go.mod h1:Ijlp5Q5iTqhGZi9V/YUlOZPrm6jS3ynwTOxXFEJOESc=
+github.com/eiannone/keyboard v0.0.0-20220611211555-0d226195f203 h1:XBBHcIb256gUJtLmY22n99HaZTz+r2Z51xUPi01m3wg=
+github.com/eiannone/keyboard v0.0.0-20220611211555-0d226195f203/go.mod h1:E1jcSv8FaEny+OP/5k9UxZVw9YFWGj7eI4KR/iOBqCg=
+golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a h1:dGzPydgVsqGcTRVwiLJ1jVbufYwmzD3LfVPLKsKg+0k=
+golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
