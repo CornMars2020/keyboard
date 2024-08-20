@@ -2,14 +2,37 @@ package main
 
 import (
 	"fmt"
+	"log"
+	"strings"
 
+	"github.com/CornMars2020/color"
 	"github.com/CornMars2020/keyboard"
 )
+
+func setCmd(cmds []string) {
+	fmt.Println("set cmd:", cmds)
+}
+
+func getCmd(cmds []string) {
+	fmt.Println("get cmd:", cmds)
+}
 
 func cmdHandler(cmd string) {
 	fmt.Println(cmd)
 
 	// customize your own command executer
+	cmds := strings.Split(cmd, " ")
+
+	switch cmds[0] {
+
+	case "set":
+		setCmd(cmds[1:])
+	case "get":
+		getCmd(cmds[1:])
+
+	default:
+		log.Printf(color.GetRed("unknown cmd: %s"), cmd)
+	}
 }
 
 func helpFunc() {
